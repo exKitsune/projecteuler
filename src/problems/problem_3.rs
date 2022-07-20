@@ -48,7 +48,6 @@ mod tests {
         let expected: u64 = 29;
         let result = solve(13195);
     
-        // println!("Expected {} got {}", EXPECTED, result);
         assert!(expected == result);
     }
 
