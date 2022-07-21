@@ -7,5 +7,7 @@ fn main() {
     // println!("Problem 2: {}", problem_2::answer());
     // println!("Problem 3: {}", problem_3::answer());
     // println!("Problem 4: {}", problem_4::answer());
-    println!("Problem 5: {}", problem_5::answer());
+    // println!("Problem 5: {}", problem_5::answer());
+    // println!("Problem 6: {}", problem_6::answer());
+    println!("Problem 7: {}", problem_7::answer());
 }
