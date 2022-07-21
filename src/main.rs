@@ -11,5 +11,7 @@ fn main() {
     // println!("Problem 6: {}", problem_6::answer());
     // println!("Problem 7: {}", problem_7::answer());
     // println!("Problem 8: {}", problem_8::answer());
-    println!("Problem 9: {}", problem_9::answer());
+    // println!("Problem 9: {}", problem_9::answer());
+    println!("Problem 10: {}", problem_10::answer());
+
 }
