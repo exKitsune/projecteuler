@@ -13,6 +13,6 @@ fn main() {
     // println!("Problem 8: {}", problem_8::answer());
     // println!("Problem 9: {}", problem_9::answer());
     // println!("Problem 10: {}", problem_10::answer());
-    println!("Problem 11: {}", problem_11::answer());
-
+    // println!("Problem 11: {}", problem_11::answer());
+    println!("Problem 12: {}", problem_12::answer());
 }

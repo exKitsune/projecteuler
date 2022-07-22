@@ -109,12 +109,12 @@ pub fn answer() -> u64 {
     solve(4)
 }
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+// #[cfg(test)]
+// mod tests {
+//     use super::*;
 
-    #[test]
-    fn problem_11_answer() {    
-        assert!(true);
-    }
-}
+//     #[test]
+//     fn problem_11_answer() {    
+//         assert!(true);
+//     }
+// }

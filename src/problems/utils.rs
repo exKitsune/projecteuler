@@ -1,3 +1,23 @@
+pub fn find_divisors(n: u64) -> Vec<u64> {
+    let mut v1 = vec![];
+    let mut v2 = vec![];
+
+    for i in 1..=(n as f64).sqrt() as u64 {
+        if n % i == 0 {
+            v1.push(i as u64);
+            if n / i != i {
+                v2.push((n / i) as u64);
+            }
+        }
+    }
+
+    v2.reverse();
+    for v in v2 {
+        v1.push(v)
+    }
+    v1
+}
+
 // https://www.baeldung.com/cs/prime-number-algorithms
 // generate primes smaller than n
 #[allow(non_snake_case)]
@@ -103,6 +123,12 @@ mod tests {
         assert!(lcm(12, 15) == 60);
         assert!(lcm(3, 9) == 9);
         assert!(lcm(135135, 3892) == 75135060);
+    }
+
+    #[test]
+    fn utils_divisors() {
+        let e1: Vec<u64> = vec![1, 2, 4, 5, 10, 20, 25, 50, 100];
+        assert!(find_divisors(100) == e1);
     }
 
     #[test]
